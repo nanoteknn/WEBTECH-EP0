@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    width: 600px;
+    margin: auto;
+}
+
+#div_one {
+    position:relative;
+    overflow:hidden;
+    margin:20px auto;
+}
+
+#profile_image {
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: auto;
+}
+
+#div_two {
+    position: relative;
+    height: 100px;
+    overflow:hidden;
+}
+
+h2 {
+    width: 600px;
+    text-align: center;
+}
