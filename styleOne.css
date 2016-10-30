@@ -1,5 +1,6 @@
 body {
     max-width: 600px;
+    min-height: 400;
     margin: 0 auto;
     background-color: #008000;
 }
@@ -20,4 +21,29 @@ body {
     width: 50%;
     top: 50%;
     margin: 0;
+}
+
+#super_powers_container {
+    min-width: 600px;
+    overflow: auto;
+    position: relative;
+    margin-top: 25px;
+}
+
+#super_powers_container ul {
+    float: right;
+    width: 50%;
+    text-align: center;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+#super_powers_container h3 {
+    float: left;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
 }
